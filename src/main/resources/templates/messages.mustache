@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>
+            <table border=1 cellpadding=5 style="background-color:#FFFFE0;">
+                <tr style="background-color:#FFD700;">
+                    <td><b>id message</b></td>
+                    <td><b>text</b></td>
+                    <td><b>title</b></td>
+                </tr>
+                {{#messages}}
+                    <tr>
+                        <td>{{id}}</td>
+                        <td>{{text}}</td>
+                        <td>{{title}}</td>
+                    </tr>
+                {{/messages}}
+            </table>
+        </div>
+    </body>
+</html>
